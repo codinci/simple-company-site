@@ -38,8 +38,6 @@ button {
     align-items: flex-start;
     justify-content: space-between;
     margin: 20px 24px;
-    border-style: solid;
-    border-width: medium;
  }
 
 .logo {
@@ -64,7 +62,7 @@ button {
 
 .company-details {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
     color: white;
@@ -72,8 +70,6 @@ button {
     width: 400px;
     padding: 8px;
     flex-wrap: wrap;
-    border-style: solid;
-    border-color: blue;
 }
 
 .company-title {
@@ -94,8 +90,6 @@ button {
     justify-content: center;
     width: 400px;
     margin-right: 250px;
-    border-style: solid;
-    border-color: blue;
 }
 
 .portfolio {
@@ -168,33 +162,32 @@ b {
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-    gap: 8px;
+    gap: 12px;
     margin-left: 250px;
     padding: 20px;
+    border-radius: 8px;
     background: #3882f6;
-    border-style: solid;
-    border-width: medium;
-    border-color: brown;
 }
 
 .contact-items {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-direction: column;   
     background: #3882f6;  
-    border-style: solid;
-    border-width: medium;
-    border-color: brown;
+    
 }
+
+.contact-title {
+    font-size: 18px;
+}
+
  
 .sign-up-button {
     display: flex;
     align-items: center;
     justify-content: center;   
-    border-style: solid;
-    border-width: medium;
-    border-color: brown;
+    padding: 4px;
 }
 
 .footer {
